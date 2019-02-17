@@ -1,0 +1,65 @@
+body {
+  background-color: blueviolet;
+  color: #fff;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.menu {
+    text-align: left;
+    border-top-width: medium;
+    border: 2px;
+padding-left: 0px;
+padding-right: 0px;
+    background-color: yellow;
+    color: black;
+
+
+}
+
+.ul-menu {
+  list-style: none;
+  list-style-position: outside;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.menu-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding-left: 0px;
+  padding-right: 0px
+}
+
+.content {
+  text-align: left;
+  background-color: blue;
+}
+
+.btn-menu {
+  width: 130px;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border: 2px;
+  border-color: blue;
+  border-style: solid;
+}
+
+.btn-active {
+    background-color: gold;
+    border-color: red;
+}
+
+.btn-menu:hover {
+  background-color: gold;
+}
