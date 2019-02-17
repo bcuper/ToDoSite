@@ -7,7 +7,7 @@ class Baza {
 
     private $host = 'localhost';
     private $user = 'root';
-    private $pass = 'pass';
+    private $pass = '';
     private $db = 'test2';
     private $conn;
 
