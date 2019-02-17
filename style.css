@@ -7,7 +7,7 @@ h1 {
   font-size: 50px;
 }
 
-h3 {
+h2 {
   text-align: center;
 }
 
@@ -19,8 +19,11 @@ padding-left: 0px;
 padding-right: 0px;
     background-color: yellow;
     color: black;
+}
 
-
+.jumbotron {
+  text-align: left;
+  background-color: #00AAFF;
 }
 
 .ul-menu {
