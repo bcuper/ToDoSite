@@ -3,7 +3,7 @@ $akcja = (isset($_GET['akcja'])?$baza->waliduj($_GET['akcja']):'');
 switch ($akcja) {
   case 'podglad':
   if(isset($_SESSION['zalogowany']) && $_SESSION['zalogowany']==1){
-    echo '<h3>Podgląd zadań</h3>';
+    include 'podglad.php';
   } else {
     echo '<br /></bc><div class="alert alert-danger" role="alert">Tylko zalogowani użytkownicy mają dostęp do tej części strony</div>';
   }
